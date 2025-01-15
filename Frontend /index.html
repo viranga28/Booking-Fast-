@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Fast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Find Your Flight</h1>
+    <form id="search-form">
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" required><br><br>
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br><br>
+
+        <label for="departure-date">Departure Date:</label>
+        <input type="date" id="departure-date" name="departure-date" required><br><br>
+
+        <button type="submit">Search</button>
+    </form>
+    <div id="search-results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
